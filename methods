@@ -1,0 +1,44 @@
+
+
+
+methods to remember in dictionary
+
+update()
+clear()
+get()
+pop()
+popitem()
+
+
+methods to remember in list
+
+
+append()
+extend()
+insert()
+pop()
+clear()
+remove()
+
+
+tuple is immutable
+
+but we can add
+fetch
+even slice a tuple to modify a value
+
+
+
+methods in sets
+
+
+
+pop()
+clear()
+remove()
+update()
+add()
+
+
+
+
