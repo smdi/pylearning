@@ -162,6 +162,87 @@ print( [M[row][col] * N[row][col] for row in range(3) for col in range(3)])
 
 
 
+print('''
+
+ generator expressions. Syntactically, generator
+expressions are just like normal list comprehensions, and support all their syntax
+—including if filters and loop nesting—but they are enclosed in parentheses instead
+of square brackets (like tuples, their enclosing parentheses are often optional)
+
+''')
+
+
+
+
+print((x**2 for x in range(3)))
+
+
+g = (x**2 for x in range(3))
+
+print(g)
+
+
+print(iter(g) is g)
+
+print(next(g))
+
+
+print(next(g))
+
+
+print(next(g))
+
+
+
+print('''
+
+
+generator
+
+''')
+
+print(''.join(x.upper() for x in 'aaa,bbb,ccc'.split(',')))
+
+
+print('''
+
+
+generator functions
+
+
+''')
+
+
+
+def remote_next():      #generator functions
+    yield "cnn"
+    yield "espn"
+
+
+
+
+g = remote_next()
+
+print(next(g))
+
+print(next(g))
+
+
+
+
+for x in remote_next():
+    print(x)
+
+
+
+
+
+import sys
+
+print(sys.path)
+
+
+
 
 
 
