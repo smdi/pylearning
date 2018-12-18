@@ -115,7 +115,7 @@ print(l)
 
 l = [1,2,3,4]
 
-l.append(5,6)
+print(l.append(7))
 
 print(l)
 

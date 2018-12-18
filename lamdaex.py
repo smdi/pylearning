@@ -161,6 +161,28 @@ print(functools.reduce(operator.mul, [2, 4, 6]))
 
 
 
+print('''
+
+
+program to find largest number in array 
+
+
+''')
+
+
+x = [1,2,3]
+
+print (x[0]) if x.sort(reverse=True) is  None else ''
+
+
+
+
+
+
+
+
+
+
 
 
 
