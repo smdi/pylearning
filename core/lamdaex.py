@@ -161,6 +161,8 @@ print(functools.reduce(operator.mul, [2, 4, 6]))
 
 
 
+
+
 print('''
 
 
