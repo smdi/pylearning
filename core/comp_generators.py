@@ -177,9 +177,27 @@ of square brackets (like tuples, their enclosing parentheses are often optional)
 print((x**2 for x in range(3)))
 
 
+print('''
+
+generator
+
+''')
+
 g = (x**2 for x in range(3))
 
 print(g)
+
+print('''
+
+comprehensions
+
+''')
+
+
+g = (x**2 for x in range(3))
+
+print(g)
+
 
 
 print(iter(g) is g)

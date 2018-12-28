@@ -117,6 +117,8 @@ mapping functions over iterables
 
 li  = [1,2,3,4]
 
+
+
 def inc(x) : return x+10
 
 
@@ -174,12 +176,7 @@ program to find largest number in array
 
 x = [1,2,3]
 
-print (x[0]) if x.sort(reverse=True) is  None else ''
-
-
-
-
-
+print (x[0]) if x.sort(reverse=True) is  None  else 'list is empty'
 
 
 
